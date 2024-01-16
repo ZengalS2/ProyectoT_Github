@@ -1,0 +1,49 @@
+busqueda de red neuronal
+- redes neuronales convolucionales
+
+busqueda de dataset de audio
+- google audioset
+- urbansounds8k
+- https://paperswithcode.com/dataset/vocalsound
+- https://paperswithcode.com/dataset/deeply-vocal-characterizer 
+- Screams dataset sin fuente
+
+AUDIOSET
+tratado de los csv y jason: pandas
+
+descarga de los audios: pafy, ffmpeg, youtube_dl, pytube
+tratado del audio:  moviepy(formato), pydub(corte)
+
+COMBINACION DE 5 DATASETS EN FORMATO DE LABELS DE URBAN8K, REDISEÑO DE CSV 
+
+Busqueda de red neuronal y adaptacion de esta a lo requerido 
+https://www.youtube.com/watch?v=hJvr1dyiOxM
+
+uso de librosa en vez de tenserflow.io
+resampy con librosa
+
+
+probar exportar modelo a tensorflowlite (app android)
+stream broadcast desde celular a pc local/server
+
+esp32 actualizacion de drivers en windows update opciones avanzadas silicon no estaba el driver
+
+modificacion de modulo sdcard (tapia, eliminacion y puente en controlador de voltaje)
+
+https://github.com/joeky888/awesome-micropython-lib/tree/master
+librerias de github que solucionan el tema del header para que se cree el audio formato wav
+
+https://github.com/miketeachman/micropython-i2s-examples/blob/master/examples/record_mic_to_sdcard_blocking.py
+examples de micropython i2s para guardar wavs procesados y almacenados en sd com tiempos mayores a 3 seg con mode blocking
+
+modificaciones en los buffers del objeto i2s y el buffer bytearray asignado a mic_samples para mejor definicion de audio
+
+intento de envio de mensajes por medio de la api the whatsapp bussisness, no funciono por verificacion de negocio verdadero
+intento utilizando servicios gratuitos de twilio
+
+ftplib, problemas para la conexion, se tuvo que utilizar ftplib.py para la esp8266
+https://github.com/SpotlightKid/micropython-ftplib/issues/8
+
+funcion nlst() copiada de ftplib de la ESP32 A FTPLIB DE ESP3266
+
+

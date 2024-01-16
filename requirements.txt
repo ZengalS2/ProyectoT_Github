@@ -1,0 +1,16 @@
+matplotlib
+pandas
+numpy
+seaborn
+librosa
+sklearn
+tensorflow
+glob
+
+yt_dlp
+moviepy
+pydub
+shutil
+import_ipynb
+
+twilio

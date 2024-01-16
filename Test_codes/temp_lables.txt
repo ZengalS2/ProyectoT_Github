@@ -1,0 +1,16 @@
+10,coughing
+11,crying
+12,laughing
+13,lip-popping
+14,lip-smacking
+15,moaning
+16,nose-blowing
+17,panting
+18,screaming
+19,sighing
+20,sneezing
+21,teeth-chattering
+22,teeth-grinding
+23,throat-clearing
+24,tongue-clicking
+25,yawning
